@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Button } from 'antd'
+import logo from '../../assets/icons/Logo.png'
 
 const Navbar = () => {
     return (
@@ -9,7 +10,7 @@ const Navbar = () => {
             <div className='flex justify-between items-center text-[16px] text-white'>
                 {/* Logatif */}
                 <div className='flex items-center gap-1'>
-                    <img src="src/assets/icons/Logo.png" alt="noventer" />
+                    <img src={logo} alt="noventer" />
                 </div>
                 {/* Menu */}
                 

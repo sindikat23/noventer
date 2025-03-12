@@ -1,4 +1,5 @@
 import { Button } from 'antd'
+import computer from '../../assets/images/comp.png'
 import icon1 from '../../assets/icons/statiska.png'
 import icon2 from '../../assets/icons/statiska2.png'
 import icon3 from '../../assets/icons/statiska3.png'
@@ -49,7 +50,7 @@ const About = () => {
                             {/* Rasm qismi */}
                             <div className="lg:w-4/7 mt-10 lg:mt-0 flex lg:justify-end relative">
                                 <img className="relative drop-shadow-[0_10px_40px_rgba(90,0,219,0.6)]"
-                                    src="src/assets/images/comp.png"
+                                    src={computer}
                                     alt="Laptop" />
 
                             </div>
